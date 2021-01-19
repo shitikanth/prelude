@@ -54,6 +54,7 @@
 ;; Define Prelude's directory structure
 (defvar prelude-dir (file-name-directory load-file-name)
   "The root dir of the Emacs Prelude distribution.")
+(setq user-emacs-directory prelude-dir)
 (defvar prelude-core-dir (expand-file-name "core" prelude-dir)
   "The home of Prelude's core functionality.")
 (defvar prelude-modules-dir (expand-file-name  "modules" prelude-dir)
